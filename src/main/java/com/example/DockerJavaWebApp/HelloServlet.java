@@ -8,17 +8,17 @@ import javax.servlet.annotation.*;
 
 @WebServlet(name = "helloServlet", value = "/MyServlet")
 public class HelloServlet extends HttpServlet {
-    private String message;
+    private String nome;
 
     public void init() {
-        message = "Resposta do servlet a sua requisição http - GET request";
+        nome = "Meryl Hawkins";
     }
 
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         response.setContentType("text/html");
 
-        request.setAttribute("message",message);
+        request.setAttribute("nome",nome);
         RequestDispatcher rd = request.getRequestDispatcher("/output.jsp");
 
         rd.forward(request,response);
