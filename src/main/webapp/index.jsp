@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>JSP - HomePage</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
@@ -17,7 +17,7 @@
                 </div>
                 <div class="divide-y divide-gray-200">
                     <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
-                        <p>This is an introduction to Java Web Pages using servlets.</p>
+                        <p>This is an introduction to Java Web Applications.</p>
                         <ul class="list-disc space-y-2">
                             <li class="flex items-start">
                 <span class="h-6 flex items-center sm:h-7">
@@ -28,8 +28,8 @@
                   </svg>
                 </span>
                                 <p class="ml-2">
-                                    Customizing your
-                                    <code class="text-sm font-bold text-gray-900">tailwind.config.js</code> file
+                                    Introduction to servlets and JSP pages
+                                  <!--  <code class="text-sm font-bold text-gray-900">tailwind.config.js</code> file -->
                                 </p>
                             </li>
                             <li class="flex items-start">
@@ -41,8 +41,8 @@
                   </svg>
                 </span>
                                 <p class="ml-2">
-                                    Extracting classes with
-                                    <code class="text-sm font-bold text-gray-900">@apply</code>
+                                    Usage of tailwindcss to style pages
+                                   <!-- <code class="text-sm font-bold text-gray-900">@apply</code>-->
                                 </p>
                             </li>
                             <li class="flex items-start">
@@ -53,16 +53,16 @@
                           clip-rule="evenodd"/>
                   </svg>
                 </span>
-                                <p class="ml-2">Code completion with instant preview</p>
+                                <p class="ml-2">Advanced Java language topics</p>
                             </li>
                         </ul>
-                        <p>Perfect for learning how the framework works, prototyping a new idea, or creating a demo to
-                            share online.</p>
+                        <p>The intent is learning how the java EE stack works and creating a demo to
+                            share online. The demo app is a network of consultants, a user can add its profile, edit, remove and list other members of the network. </p>
                     </div>
                     <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
-                        <p>Want to access the servlet?</p>
+                        <p>Want to access the demo application?</p>
                         <p>
-                            <a href="MyServlet" class="text-cyan-600 hover:text-cyan-700"> MyServlet &rarr; </a>
+                            <a href="MyServlet" class="text-cyan-600 hover:text-cyan-700"> ConsultantNet &rarr; </a>
                         </p>
                     </div>
                 </div>

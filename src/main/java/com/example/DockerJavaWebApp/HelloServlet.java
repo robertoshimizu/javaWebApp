@@ -4,9 +4,7 @@ import java.io.*;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.*;
-import javax.servlet.annotation.*;
 
-@WebServlet(name = "helloServlet", value = "/MyServlet")
 public class HelloServlet extends HttpServlet {
     private String nome;
 

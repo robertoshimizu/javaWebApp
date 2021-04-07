@@ -3,7 +3,7 @@
 
 ### Background
 
-Java has still the largest share of enterprise applications and programmers. It has a mature infrastructure that scales, huge community, good documentation and tutorials and it is simply the Object Oriented Language to go. Many books with advanced topics in programming use Java and it is natural that any programmer aimed to advance in its career, face Java at some point.
+[Java](https://www.java.com/en/) has still the largest share of enterprise applications and programmers. It has a mature infrastructure that scales, huge community, good documentation and tutorials and it is simply the Object Oriented Language to go. Many books with advanced topics in programming use Java and it is natural that any programmer aimed to advance in its career, face Java at some point.
 
 This next project is a Beginner's immersion to Java Web Applications. First part, it is devoted to bring to light some concepts, and the second part is about the project per se.
 
@@ -21,13 +21,13 @@ Java web applications are typically not running directly on the server. Java web
 
 The container provides a runtime environment for Java web applications. The container is for Java web applications what the JVM (Java Virtual Machine) is for local running Java applications. The container itself runs in the JVM.
 
-In general, Java distinguishes two containers: the web container and the Java EE container. Typical web containers in the Java world are Tomcat or Jetty. A web container supports the execution of Java servlets and JavaServer Pages. A Java EE container supports additional functionality, for example, distribution of server load.
+In general, Java distinguishes two containers: the web container and the Java EE container. Typical web containers in the Java world are [Tomcat](http://tomcat.apache.org/) or [Jetty](https://www.eclipse.org/jetty/). A web container supports the execution of Java servlets and JavaServer Pages. A Java EE container supports additional functionality, for example, distribution of server load.
 
-Most of the modern Java web frameworks are based on servlets. Popular Java web frameworks are GWT, JavaServer Faces, Struts and the Spring framework. These web frameworks usually require as a minimum container a web container.
+Most of the modern Java web frameworks are based on servlets. Popular Java web frameworks are [GWT](http://www.gwtproject.org/overview.html), [JavaServerFaces](http://www.javaserverfaces.org/), [Play!](https://www.playframework.com/), [Struts](https://struts.apache.org/) and the [Spring](https://spring.io/) framework. These web frameworks usually require as a minimum container a web container.
 
 #### 1.2 Java web application
 
-A Java web application is a collection of dynamic resources (such as Servlets, JavaServer Pages, Java classes and jars) and static resources (HTML pages and pictures). A Java web application can be deployed as a WAR (Web ARchive) file.
+A Java web application is a collection of dynamic resources (such as Servlets, JavaServer Pages, Java classes and jars) and static resources (HTML pages and pictures). A Java web application can be deployed as a WAR (Web Archive) file.
 
 The file web.xml is the standard deployment descriptor for the Web application that the Web service is part of. It declares the filters and servlets used by the service.
 
@@ -70,3 +70,7 @@ In the Libraries and Frameworks list, selected the `Web Profile` specification a
 Credits:
 - Alura - [Java Servlet - Foundations of web java programming](https://cursos.alura.com.br/course/servlets-fundamentos-programacao-web-java)
 - Vogella - [Introduction to Java Web development - Tutorial](https://www.vogella.com/tutorials/JavaWebTerminology/article.html#:~:text=A%20Java%20web%20application%20is,WAR%20(Web%20ARchive)%20file.)
+
+
+### Notes
+
