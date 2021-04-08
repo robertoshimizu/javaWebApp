@@ -23,5 +23,7 @@ public class NovoConsultorServlet extends HttpServlet {
 
         PrintWriter out = response.getWriter();
         out.println("<html><body>Consultor " + nomeConsultor + " cadastrado com sucesso!</body></html>");
+
+        response.sendRedirect("listaConsultores");
     }
 }
