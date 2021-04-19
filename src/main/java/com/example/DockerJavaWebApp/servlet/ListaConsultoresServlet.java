@@ -1,4 +1,6 @@
-package com.example.DockerJavaWebApp;
+package com.example.DockerJavaWebApp.servlet;
+
+import com.example.DockerJavaWebApp.model.Consultant;
 
 import javax.servlet.*;
 import javax.servlet.http.*;

@@ -1,4 +1,4 @@
-package com.example.DockerJavaWebApp;
+package com.example.DockerJavaWebApp.servlet;
 
 import java.io.*;
 import javax.servlet.RequestDispatcher;
