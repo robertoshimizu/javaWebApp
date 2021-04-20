@@ -2,7 +2,7 @@ package com.example.DockerJavaWebApp.servlet;
 
 import com.example.DockerJavaWebApp.model.Consultant;
 
-import javax.servlet.*;
+
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
@@ -13,7 +13,7 @@ public class NovoConsultorServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         System.out.println("Cadastrando novo consultor");
 
         String nomeConsultor = request.getParameter("nome");

@@ -6,7 +6,7 @@
 
         <servlet>
             <servlet-name>helloServlet</servlet-name>
-            <servlet-class>com.example.DockerJavaWebApp.HelloServlet</servlet-class>
+            <servlet-class>com.example.DockerJavaWebApp.servlet.HelloServlet</servlet-class>
         </servlet>
         <servlet-mapping>
             <servlet-name>helloServlet</servlet-name>
