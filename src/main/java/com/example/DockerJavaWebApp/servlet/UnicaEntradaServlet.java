@@ -28,7 +28,9 @@ public class UnicaEntradaServlet extends HttpServlet {
 
 
         } else if(paramAcao.equals("AdicionandoConsultor")){
-            System.out.println("adicionando consultor");
+            System.out.println(request.getParameter("nome"));
+            RequestDispatcher rd = request.getRequestDispatcher("/output.jsp");
+            rd.forward(request,response);
         }
     }
 
