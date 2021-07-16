@@ -62,7 +62,7 @@
                     <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
                         <p>Want to access the demo application?</p>
                         <p>
-                            <a href="HomePage.html" class="text-cyan-600 hover:text-cyan-700"> ConsultantNet &rarr; </a>
+                            <a href="landingPage.html" class="text-cyan-600 hover:text-cyan-700"> ConsultantNet &rarr; </a>
                         </p>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 package com.example.DockerJavaWebApp.acao;
 
 import com.example.DockerJavaWebApp.model.Consultant;
-import com.example.DockerJavaWebApp.servlet.MockDataBase;
+import com.example.DockerJavaWebApp.model.MockDataBase;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

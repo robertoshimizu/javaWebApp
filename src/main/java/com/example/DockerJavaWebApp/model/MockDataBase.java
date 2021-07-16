@@ -1,6 +1,4 @@
-package com.example.DockerJavaWebApp.servlet;
-
-import com.example.DockerJavaWebApp.model.Consultant;
+package com.example.DockerJavaWebApp.model;
 
 import java.util.ArrayList;
 import java.util.List;
