@@ -28,7 +28,7 @@
 
 <body class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover" style="background-image:url('https://source.unsplash.com/Bcj6vbINzuM');">
 <%
-    String nome = (String) request.getAttribute("nome");
+    String nome = (String) request.getParameter("nome");
 %>
 
 
@@ -120,6 +120,13 @@
     });
 
 </script>
+
+<style>
+
+    . btn {
+
+    }
+</style>
 
 </body>
 

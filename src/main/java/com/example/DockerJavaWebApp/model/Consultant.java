@@ -1,4 +1,4 @@
-package com.example.DockerJavaWebApp;
+package com.example.DockerJavaWebApp.model;
 
 import java.util.List;
 

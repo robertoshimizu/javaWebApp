@@ -17,7 +17,7 @@
                 </div>
                 <div class="divide-y divide-gray-200">
                     <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
-                        <p>This is an introduction to Java Web Applications.</p>
+                        <p>This is an introduction to Java Web Applications (Javeiros only)</p>
                         <ul class="list-disc space-y-2">
                             <li class="flex items-start">
                 <span class="h-6 flex items-center sm:h-7">
@@ -60,11 +60,24 @@
                             share online. The demo app is a network of consultants, a user can add its profile, edit, remove and list other members of the network. </p>
                     </div>
                     <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
-                        <p>Want to access the demo application?</p>
+                        <p>Want to access the landing page? Click here</p>
                         <p>
-                            <a href="HomePage.html" class="text-cyan-600 hover:text-cyan-700"> ConsultantNet &rarr; </a>
+                            <a href="landingPage.html" class="text-cyan-600 hover:text-cyan-700"> ConsultantNet &rarr; </a>
                         </p>
                     </div>
+                    <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
+                        <p>Want to access the servlet? Click here</p>
+                        <p>
+                            <a href="/DockerJavaWebApp/entrada?acao=ListaConsultores" class="text-cyan-600 hover:text-cyan-700"> Servlet &rarr; </a>
+                        </p>
+                    </div>
+                    <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
+                        <p>Want to access the a consultant page? Click here</p>
+                        <p>
+                            <a href="/DockerJavaWebApp/entrada?acao=AdicionandoConsultor" class="text-cyan-600 hover:text-cyan-700"> Servlet &rarr; </a>
+                        </p>
+                    </div>
+
                 </div>
             </div>
         </div>
